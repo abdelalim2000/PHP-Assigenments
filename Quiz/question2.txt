@@ -1,0 +1,21 @@
+1 - {False} => because in senarios like sup class inherit from two sup classes 
+                the compiler want know which class he should go with.
+
+2 - {true}
+
+3 - {false} => destructor is a method automaticlly called when the code is 
+                stopped or exited so it will be called at the end of the code.
+
+4 - {false} => final class can`t be inhereted to any other classes.
+
+5 - {true}
+
+6 - {true}
+
+7 - {false} => its mean the ability to redefine the methods for derived classes.
+
+8 - {true}
+
+9 - {true}
+
+10 - {false} =>

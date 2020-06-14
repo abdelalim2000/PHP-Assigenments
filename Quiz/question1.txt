@@ -1,0 +1,28 @@
+1 => ballcount = 0 => default value
+2 => ballcount = 0 + 1 = 1 < 7 
+3 => ballcount = 1 + 1 = 2 < 7
+4 => ballcount = 2 + 1 = 3 < 7
+5 => ballcount = 3 + 1 = 4 < 7
+6 => ballcount = 4 + 1 = 5 < 7
+7 => ballcount = 5 + 1 = 6 < 7
+8 => ballcount = 6 + 1 = 7 === 7 
+you can ask for your wish
+ballcount = 0
+9 => ballcount = 0 => default value
+10 => ballcount = 0 + 1 = 1 < 7 
+11 => ballcount = 1 + 1 = 2 < 7
+12 => ballcount = 2 + 1 = 3 < 7
+13 => ballcount = 3 + 1 = 4 < 7
+14 => ballcount = 4 + 1 = 5 < 7
+15 => ballcount = 5 + 1 = 6 < 7
+16 => ballcount = 6 + 1 = 7 === 7 
+you can ask for your wish
+ballcount = 0
+17 => ballcount = 0 + 1 = 1 < 7
+18 => ballcount = 1 + 1 = 2 < 7
+19 => ballcount = 2 + 1 = 3 < 7
+20 => ballcount = 3 + 1 = 4 < 7
+
+OUTPUT:
+You can ask for your wish
+You can ask for your wish
