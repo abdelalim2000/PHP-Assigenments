@@ -1,0 +1,60 @@
+class Employee{
+    private int $id;
+    private string $firstName;
+    private string $lastName;
+    private float $salary;
+
+    public function __construct(int $id, string $firstName, string $lastName, float $salary){
+        $this->id = $id;
+        $this->firstName = $firstName;
+        $this->lastName = $lastName;
+        $this->salary = $salary; 
+    }
+
+    public function __get($name) : string{
+        switch($name){
+            case 'id':
+                return "{$id}";
+                break;
+            case 'firstName':
+                return "{$firstName}';
+                break;
+            case 'lastName' :
+                return "{$lastName}';
+                break;
+            case 'salary':
+                return '{$salary}';
+                break;
+        }
+    }
+
+    public function __set($name, $value){
+        switch($name){
+            case 'id':
+                return $this->id = $value;
+                break;
+            case 'firstName':
+                return $this->firstName = $value;
+                break;
+            case 'lastName' :
+                return $this->lastName = $value;
+                break;
+            case 'salary':
+                return $this->salary = $value;
+                break;
+        }
+    }
+
+    public function getAnnualSalary() : int{
+        return $this->salary * 12;
+    }
+
+    public function raiseSalary(int $percent) : int{
+        return $this->salary * $percent;
+    }
+
+    public function toString() : string {
+        return "Employee [id: {$this->id}, name: {$this->firstName} {$lastName}, salary: {$this->salary}";
+    }
+
+}
